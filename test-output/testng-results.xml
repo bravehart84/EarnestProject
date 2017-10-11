@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="85474" started-at="2017-10-11T21:53:28Z" finished-at="2017-10-11T21:54:54Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="85474" started-at="2017-10-11T21:53:28Z" finished-at="2017-10-11T21:54:54Z">
+      <class name="page.tests.TestOrderPage">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:page.tests.TestOrderPage@4c70fda8]" name="setUp" is-config="true" duration-ms="10208" started-at="2017-10-11T14:53:28Z" finished-at="2017-10-11T14:53:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="testPricingAndTaxes()[pri:0, instance:page.tests.TestOrderPage@4c70fda8]" name="testPricingAndTaxes" duration-ms="71557" started-at="2017-10-11T14:53:39Z" finished-at="2017-10-11T14:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPricingAndTaxes -->
+        <test-method status="PASS" signature="result(org.testng.ITestResult)[pri:0, instance:page.tests.TestOrderPage@4c70fda8]" name="result" is-config="true" duration-ms="2" started-at="2017-10-11T14:54:50Z" finished-at="2017-10-11T14:54:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testPricingAndTaxes status=SUCCESS method=TestOrderPage.testPricingAndTaxes()[pri:0, instance:page.tests.TestOrderPage@4c70fda8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- result -->
+        <test-method status="PASS" signature="testQuantity()[pri:1, instance:page.tests.TestOrderPage@4c70fda8]" name="testQuantity" duration-ms="217" started-at="2017-10-11T14:54:50Z" finished-at="2017-10-11T14:54:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testQuantity -->
+        <test-method status="PASS" signature="testNullEntry()[pri:2, instance:page.tests.TestOrderPage@4c70fda8]" name="testNullEntry" duration-ms="1129" started-at="2017-10-11T14:54:50Z" finished-at="2017-10-11T14:54:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNullEntry -->
+        <test-method status="PASS" signature="result(org.testng.ITestResult)[pri:0, instance:page.tests.TestOrderPage@4c70fda8]" name="result" is-config="true" duration-ms="0" started-at="2017-10-11T14:54:50Z" finished-at="2017-10-11T14:54:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testQuantity status=SUCCESS method=TestOrderPage.testQuantity()[pri:1, instance:page.tests.TestOrderPage@4c70fda8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- result -->
+        <test-method status="PASS" signature="result(org.testng.ITestResult)[pri:0, instance:page.tests.TestOrderPage@4c70fda8]" name="result" is-config="true" duration-ms="0" started-at="2017-10-11T14:54:52Z" finished-at="2017-10-11T14:54:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testNullEntry status=SUCCESS method=TestOrderPage.testNullEntry()[pri:2, instance:page.tests.TestOrderPage@4c70fda8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- result -->
+        <test-method status="PASS" signature="testNullState()[pri:3, instance:page.tests.TestOrderPage@4c70fda8]" name="testNullState" duration-ms="854" started-at="2017-10-11T14:54:52Z" finished-at="2017-10-11T14:54:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNullState -->
+        <test-method status="PASS" signature="result(org.testng.ITestResult)[pri:0, instance:page.tests.TestOrderPage@4c70fda8]" name="result" is-config="true" duration-ms="0" started-at="2017-10-11T14:54:52Z" finished-at="2017-10-11T14:54:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testNullState status=SUCCESS method=TestOrderPage.testNullState()[pri:3, instance:page.tests.TestOrderPage@4c70fda8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- result -->
+        <test-method status="PASS" signature="testInvalidData()[pri:4, instance:page.tests.TestOrderPage@4c70fda8]" name="testInvalidData" duration-ms="397" started-at="2017-10-11T14:54:52Z" finished-at="2017-10-11T14:54:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidData -->
+        <test-method status="PASS" signature="testNegatives()[pri:5, instance:page.tests.TestOrderPage@4c70fda8]" name="testNegatives" duration-ms="252" started-at="2017-10-11T14:54:53Z" finished-at="2017-10-11T14:54:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testNegatives -->
+        <test-method status="PASS" signature="result(org.testng.ITestResult)[pri:0, instance:page.tests.TestOrderPage@4c70fda8]" name="result" is-config="true" duration-ms="0" started-at="2017-10-11T14:54:53Z" finished-at="2017-10-11T14:54:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testInvalidData status=SUCCESS method=TestOrderPage.testInvalidData()[pri:4, instance:page.tests.TestOrderPage@4c70fda8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- result -->
+        <test-method status="PASS" signature="result(org.testng.ITestResult)[pri:0, instance:page.tests.TestOrderPage@4c70fda8]" name="result" is-config="true" duration-ms="1" started-at="2017-10-11T14:54:53Z" finished-at="2017-10-11T14:54:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testNegatives status=SUCCESS method=TestOrderPage.testNegatives()[pri:5, instance:page.tests.TestOrderPage@4c70fda8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- result -->
+        <test-method status="PASS" signature="testDecimal()[pri:6, instance:page.tests.TestOrderPage@4c70fda8]" name="testDecimal" duration-ms="250" started-at="2017-10-11T14:54:53Z" finished-at="2017-10-11T14:54:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDecimal -->
+        <test-method status="PASS" signature="result(org.testng.ITestResult)[pri:0, instance:page.tests.TestOrderPage@4c70fda8]" name="result" is-config="true" duration-ms="1" started-at="2017-10-11T14:54:53Z" finished-at="2017-10-11T14:54:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testDecimal status=SUCCESS method=TestOrderPage.testDecimal()[pri:6, instance:page.tests.TestOrderPage@4c70fda8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- result -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:page.tests.TestOrderPage@4c70fda8]" name="tearDown" is-config="true" duration-ms="570" started-at="2017-10-11T14:54:53Z" finished-at="2017-10-11T14:54:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- page.tests.TestOrderPage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
